@@ -44,7 +44,7 @@ public class MainActivity extends Activity implements OnClickListener {
 				Toast.makeText(getApplicationContext(), "countdown to the end", Toast.LENGTH_SHORT).show();
 			}
 		});
-		timelyView.start(this);
+		timelyView.start();
 	}
     
     

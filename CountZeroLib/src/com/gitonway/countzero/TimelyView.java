@@ -154,7 +154,7 @@ public class TimelyView extends View {
 	/**
 	 * start count down
 	 */
-	public void start(Context context) {
+	public void start() {
 		
 		if (!isRunning()) {
 			mPlayingState = RUNNING;
