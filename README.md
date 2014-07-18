@@ -19,7 +19,7 @@ config start from
 ``` java
 yourview.setFromNumber(from);
 ```
-you can countdown add end listener
+you can add countdown end listener
 
 ``` java
 yourview.setOnFinish(FinishListener);
