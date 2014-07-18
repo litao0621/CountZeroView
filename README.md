@@ -13,10 +13,17 @@ you just call the
 
 ``` java
 yourview.start();
-
 ```
+config start from
 
+``` java
+yourview.setFromNumber(from);
+```
+you can countdown add end listener
 
+``` java
+yourview.setOnFinish(FinishListener);
+```
 
 
 
